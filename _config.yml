@@ -193,6 +193,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - /test-geek
 keep_files:
   - .git
   - .svn
@@ -264,6 +265,11 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-gravatar
+  - jekyll-admin
+  - jekyll-asciidoc
+  - jekyll-archives
+  - asciidoctor-diagram
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -272,6 +278,11 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-gravatar
+  - jekyll-admin
+  - jekyll-asciidoc
+  - jekyll-archives
+  - asciidoctor-diagram
 
 
 # Archives
