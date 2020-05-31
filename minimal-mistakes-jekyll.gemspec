@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors                 = ["Michael Rose", "iBug"]
 
   spec.summary                 = %q{A flexible two-column Jekyll theme.}
-  spec.homepage                = "https://github.com/mmistakes/minimal-mistakes"
+  spec.homepage                = "https://github.com/geek-re-kr/minimal-mistakes.git"
   spec.license                 = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
@@ -28,6 +28,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-asciidoc", "~> 2.0.1"
   spec.add_runtime_dependency "jekyll-archives"
   spec.add_runtime_dependency "asciidoctor-diagram"
+  spec.add_runtime_dependency "jemoji"
 
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake", ">= 12.3.3"
