@@ -62,6 +62,8 @@ comments:
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
+  commento:
+    address                  : # ex) "https://commento.geek.re.kr"
 reCaptcha:
   siteKey                :
   secret                 :
