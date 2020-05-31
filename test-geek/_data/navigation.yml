@@ -6,7 +6,9 @@ main:
     url: /about/
   - title: "Yealy Posts"
     url: /year-archive/
-  - title: "Post Collections"
-    url: /post-archive/
+  - title: "Collections"
+    url: /collection-archive/
+  - title: "Pages"
+    url: /page-archive/
   - title: "Sitemap"
     url: /sitemap/
