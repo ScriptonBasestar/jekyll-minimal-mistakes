@@ -19,19 +19,21 @@ Gem::Specification.new do |spec|
   end
 
   # spec.add_runtime_dependency "jekyll", ">= 4.1", "< 5.0"
-  spec.add_runtime_dependency "jekyll", "3.8.7"
+  
   # spec.add_runtime_dependency "github-pages"
+  spec.add_runtime_dependency "jekyll", "3.8.7"
   spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.4"
   spec.add_runtime_dependency "jekyll-gist", "~> 1.5"
   spec.add_runtime_dependency "jekyll-feed", "~> 0.13"
-  spec.add_runtime_dependency "jekyll-include-cache", "~> 0.2"
-  spec.add_runtime_dependency "jekyll-gravatar", "~> 0.1"
+  spec.add_runtime_dependency "jemoji", "~> 0.11.1"
+
   spec.add_runtime_dependency "jekyll-admin", "~> 0.10"
+  spec.add_runtime_dependency "jekyll-gravatar", "~> 0.1"
+  spec.add_runtime_dependency "jekyll-include-cache", "~> 0.2"
   spec.add_runtime_dependency "jekyll-asciidoc", "~> 2.0.1"
   spec.add_runtime_dependency "jekyll-archives", "~> 2.2"
   spec.add_runtime_dependency "asciidoctor-diagram", "~> 2.0"
-  spec.add_runtime_dependency "jemoji", "~> 0.12"
 
   spec.add_development_dependency "bundler", ">= 2.1"
   spec.add_development_dependency "rake", ">= 13.0"
