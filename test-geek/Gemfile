@@ -7,7 +7,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 4.1.0"
+# gem "jekyll", "~> 4.1.0"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minimal-mistakes-jekyll", git: "https://github.com/geek-re-kr/minimal-mistakes.git"
 gem "minimal-mistakes-jekyll", path: "../"
@@ -19,7 +19,6 @@ gem "minimal-mistakes-jekyll", path: "../"
 group :jekyll_plugins do
   # gem 'github-pages'
   gem 'jekyll-seo-tag', '~> 2.6', '>= 2.6.1'
-  gem 'jekyll-gravatar'
 end
 
 
