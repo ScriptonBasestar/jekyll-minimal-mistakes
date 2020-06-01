@@ -84,9 +84,11 @@ analytics:
 # Site Author
 author:
   name: "CEE"
+  # avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio: "man"
   location: "Asia/Seoul"
   email: "archmagece@gmail.com"
+  # gravatar: "7f897f2018b4cda842e1718a111ee397"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -138,6 +140,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - /test-geek
 keep_files:
   - .git
   - .svn
@@ -185,6 +188,7 @@ plugins:
   - jekyll-asciidoc
   - jekyll-archives
   - asciidoctor-diagram
+  - jemoji
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -198,6 +202,7 @@ whitelist:
   - jekyll-asciidoc
   - jekyll-archives
   - asciidoctor-diagram
+  - jemoji
 
 # Archives
 #  Type
