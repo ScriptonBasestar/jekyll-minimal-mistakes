@@ -1,0 +1,8 @@
+{% assign words = post.content | strip_html | strip_newlines | remove: " " | size %}
+{% assign time = post.content | strip_html | strip_newlines | remove: " " | size | divided_by: 400 | plus: 1 %}
+
+<span class="icon-clock morebox" >
+Reading time: {{ time }} 
+{%if time > 1 %} mins
+{% else %}min{% endif %}, {{words}} words.
+</span>
